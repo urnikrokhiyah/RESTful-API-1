@@ -1,0 +1,420 @@
+{
+	"info": {
+		"_postman_id": "1931b15f-0ece-4847-bb26-adc81c7ec1fe",
+		"name": "tugas-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "swapi-1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "swapi-2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/16",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"16"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "swapi-3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/films/4/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"films",
+						"4",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "swapi-4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/planets",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"planets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newsapi-1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/everything?q=tesla&from=2021-07-26&sortBy=publishedAt&apiKey=a6b23282b80746e096b142ef1f2951a3",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"everything"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "tesla"
+						},
+						{
+							"key": "from",
+							"value": "2021-07-26"
+						},
+						{
+							"key": "sortBy",
+							"value": "publishedAt"
+						},
+						{
+							"key": "apiKey",
+							"value": "a6b23282b80746e096b142ef1f2951a3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newsapi-2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=id&category=business&apiKey=a6b23282b80746e096b142ef1f2951a3",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "id"
+						},
+						{
+							"key": "category",
+							"value": "business"
+						},
+						{
+							"key": "apiKey",
+							"value": "a6b23282b80746e096b142ef1f2951a3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newsapi-3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=id&apiKey=a6b23282b80746e096b142ef1f2951a3",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "id"
+						},
+						{
+							"key": "apiKey",
+							"value": "a6b23282b80746e096b142ef1f2951a3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newsapi-4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=id&category=science&apiKey=a6b23282b80746e096b142ef1f2951a3",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "id"
+						},
+						{
+							"key": "category",
+							"value": "science"
+						},
+						{
+							"key": "apiKey",
+							"value": "a6b23282b80746e096b142ef1f2951a3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newsapi-5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?country=id&category=health&apiKey=a6b23282b80746e096b142ef1f2951a3",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "id"
+						},
+						{
+							"key": "category",
+							"value": "health"
+						},
+						{
+							"key": "apiKey",
+							"value": "a6b23282b80746e096b142ef1f2951a3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "swapi-5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/planets/6",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"planets",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sepulsa-1-getToken",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/token?client_id=1&client_secret=11",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"token"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "1"
+						},
+						{
+							"key": "client_secret",
+							"value": "11"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sepulsa-2-getClient",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/client/4",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"client",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sepulsa-3-Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/client/5",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"client",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sepulsa-4-post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/user",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sepulsa-5-put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"created_at\": \"2019-02-18T00:00:00\",\n    \"updated_at\": \"2019-02-18T00:00:00\",\n    \"deleted_at\": \"2019-02-18T00:00:00\",\n    \"id\": 1234,\n    \"title\": \"Judul Buku Satu dua\",\n    \"isbn\": \"1-234-5678-9101112-13\",\n    \"writer\": \"Dr. Who\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/book/5",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"book",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
